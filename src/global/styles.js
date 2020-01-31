@@ -25,4 +25,7 @@ export default createGlobalStyle`
         text-decoration: none;
         color: #000;
     }
+    li{
+        list-style: none;
+    }
 `;
