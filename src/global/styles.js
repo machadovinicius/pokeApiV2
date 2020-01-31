@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import Colors from "./colors";
+
+import background from "../assets/pokeball_02.png";
 
 export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
@@ -15,7 +16,7 @@ export default createGlobalStyle`
     body{
         font-family: 'Roboto', sans-serif;
         -webkit-font-smoothing: antialiased !important;
-        background: ${Colors.white};
+        background-image: url(${background});
     }
     a, button{
         cursor: pointer;
